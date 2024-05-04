@@ -4,10 +4,8 @@
 </script>
 
 <template>
-  <Logo></Logo>
-  <div>
-    <Link content="Сезоны" href=""></Link>
-    <Link content="Телеграм" href=""></Link>
-    <Link content="Авторы" href=""></Link>
+  <div class="flex content-center justify-between items-center m-8">
+    <Logo></Logo>
+    <Link icon="telegram.svg" href=""></Link>
   </div>
 </template>

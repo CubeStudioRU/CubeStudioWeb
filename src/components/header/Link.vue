@@ -1,12 +1,14 @@
 
 <template>
-  <a :href="href" class="text-zinc-50 font-extrabold mx-3">{{content}}</a>
+  <a :href="href" class="">
+    <img :src="'/src/assets/' + icon" class="size-6">
+  </a>
 </template>
 
 <script>
   export default {
     props: {
-      content: String,
+      icon: String,
       href: String
     }
   }
